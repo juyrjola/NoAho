@@ -20,7 +20,6 @@ setup(name = "NoAho",
       description="Fast, non-overlapping simultaneous multiple keyword search",
       long_description = open('README.txt').read(),
       ext_modules = [noaho_module],
-      packages = ['noaho'],
 
       classifiers = [
         'Intended Audience :: Developers',
